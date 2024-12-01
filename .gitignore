@@ -1,0 +1,77 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Build output directories
+dist/
+build/
+out/
+
+# Dependency directories
+bower_components/
+
+# Package lock files (if you prefer not to commit them)
+package-lock.json
+yarn.lock
+**/package-lock.json
+**/yarn.lock
+
+# IDE and editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage directories
+coverage/
+**/coverage/
+
+# NPM local package
+*.tgz
+
+# Miscellaneous
+*.log
+*.cache
+*.tmp
+
+# Docker files (if you don't want to include them)
+docker-compose.yml
+docker-compose.override.yml
+**/Dockerfile
+
+# Kubernetes files (if you don't want to include them)
+*.k8s.yaml
+*.helm.yaml
+
+# Database data directories
+services/db/data/
+services/db/pgdata/
+
+# Frontend build artifacts
+services/frontend/build/
+services/frontend/node_modules/
+
+# Backend build artifacts
+services/api/node_modules/
+
+# Exclude specific secrets or keys
+**/secret.json
+**/firebase-adminsdk.json
